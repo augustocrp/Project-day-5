@@ -22,5 +22,6 @@ else:
     print("Entrada inválida!")
     quit()
 
-password_generator(Len_pass =choice_user)
+response = password_generator(Len_pass =choice_user)
+print(f"Senha gerada: \n{response}")
         
